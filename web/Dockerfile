@@ -44,3 +44,5 @@ ENV HOME /home/${APP_USER}
 RUN service apache2 restart
 
 WORKDIR /var/www/html/
+WORKDIR /app
+

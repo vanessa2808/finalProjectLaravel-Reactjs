@@ -46,3 +46,18 @@
 [Wed Nov 27 07:48:40.401538 2019] [core:warn] [pid 50] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
 [Wed Nov 27 07:48:40.412181 2019] [mpm_prefork:notice] [pid 50] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
 [Wed Nov 27 07:48:40.412680 2019] [core:notice] [pid 50] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Nov 27 08:48:34.112215 2019] [core:warn] [pid 49] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Nov 27 08:48:34.116748 2019] [mpm_prefork:notice] [pid 49] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Wed Nov 27 08:48:34.117889 2019] [core:notice] [pid 49] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Nov 27 09:08:13.371261 2019] [core:warn] [pid 50] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Nov 27 09:08:13.374913 2019] [mpm_prefork:notice] [pid 50] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Wed Nov 27 09:08:13.375219 2019] [core:notice] [pid 50] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Nov 27 09:25:57.810875 2019] [core:warn] [pid 50] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Nov 27 09:25:57.814938 2019] [mpm_prefork:notice] [pid 50] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Wed Nov 27 09:25:57.815376 2019] [core:notice] [pid 50] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Nov 28 08:06:31.139607 2019] [core:warn] [pid 49] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Nov 28 08:06:31.150157 2019] [mpm_prefork:notice] [pid 49] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Thu Nov 28 08:06:31.150585 2019] [core:notice] [pid 49] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Nov 28 08:12:12.039317 2019] [autoindex:error] [pid 56] [client 172.23.0.1:46760] AH01276: Cannot serve directory /var/www/html/public/admin/uploads/users/: No matching DirectoryIndex (index.html,index.cgi,index.pl,index.php,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive, referer: http://localhost/admin/users/list_users
+[Thu Nov 28 08:17:57.412588 2019] [autoindex:error] [pid 57] [client 172.23.0.1:46844] AH01276: Cannot serve directory /var/www/html/public/admin/uploads/users/: No matching DirectoryIndex (index.html,index.cgi,index.pl,index.php,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive, referer: http://localhost/admin/users/list_users
+[Thu Nov 28 08:18:41.975013 2019] [autoindex:error] [pid 154] [client 172.23.0.1:46852] AH01276: Cannot serve directory /var/www/html/public/admin/uploads/users/: No matching DirectoryIndex (index.html,index.cgi,index.pl,index.php,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive, referer: http://localhost/admin/users/list_users

@@ -11,9 +11,13 @@ services:
       - ./web/sites:/etc/apache2/sites-enabled
       - ./web/init.sh:/init.sh
       - ./web/logs/:/var/log/apache2
+      - '.:/app'
+      - '/app/node_modules'
     links:
       - db_demo
       - redis
+    environment:
+      - NODE_ENV=development
   db_demo:
     image: mysql:5.7
     volumes:
@@ -28,6 +32,7 @@ services:
 
   redis:
     image: redis
+
 
 volumes:
   datastore: {}
