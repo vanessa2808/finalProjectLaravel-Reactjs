@@ -1,13 +1,9 @@
 import React, {Component} from 'react';
 import Home from "./home";
-import Content from "./content/content";
 import Contact from "./contact/contact";
-import Product from "./product/product";
+import Product  from "./product/product";
 import Blog from "./blog/blog";
 import About from "./about/about";
-
-import Login from "./Login/Login";
-import Register from "./Register/Register";
 import { BrowserRouter as Router, Route, Link, NavLink, Switch } from "react-router-dom";
 class Pane extends Component {
   render() {
@@ -49,7 +45,7 @@ class Pane extends Component {
                 <li className="nav-item"><Link to="/About" className="nav-link">About</Link></li>
                 <li className="nav-item"><Link to="/Blog" className="nav-link">Blog</Link></li>
                 <li className="nav-item"><Link to="/Contact" className="nav-link">Contact</Link></li>
-               
+
                 <li className="nav-item cta cta-colored"><Link to="/Cart" className="nav-link"><span className="icon-shopping_cart" />[0]</Link></li>
               </ul>
             </div>
@@ -59,24 +55,24 @@ class Pane extends Component {
         <Switch>
           <Route  path="/" exact component={Home} />
           <Route exact path="/Home" component={Home} />
-          
+          <Route exact path="/Cart" component={Home} />
           <Route exact path="/About" component={About} />
-         <Route exact path="/Product" component={Product} />
+          <Route exact path="/Product" component={Product} />
           <Route exact path="/Blog" component={Blog} />
           <Route exact path="/Contact" component={Contact} />
-         
-          
+
+
 
         </Switch>
       </Router>
 
-        
-        
-       
-       
-      
-     
-       
+
+
+
+
+
+
+
       </div>
     );
   }

@@ -4,7 +4,7 @@ class Cart extends Component {
 	render() {
 		return(
 			<div>
-  
+
   <section className="ftco-section ftco-cart">
     <div className="container">
       <div className="row">
@@ -13,8 +13,7 @@ class Cart extends Component {
             <table className="table">
               <thead className="thead-primary">
                 <tr className="text-center">
-                  <th>&nbsp;</th>
-                  <th>&nbsp;</th>
+
                   <th>Product name</th>
                   <th>Price</th>
                   <th>Quantity</th>
