@@ -1652,3 +1652,7 @@
 127.0.0.1 - - [06/Jan/2020:06:59:27 +0000] "OPTIONS * HTTP/1.0" 200 126 "-" "Apache/2.4.18 (Ubuntu) (internal dummy connection)"
 172.21.0.1 - - [06/Jan/2020:06:59:33 +0000] "GET /api/Product HTTP/1.1" 200 2268 "http://webfood.com/Product" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36"
 172.21.0.1 - - [06/Jan/2020:06:59:33 +0000] "GET /%7Brequire(%60$%7B./product.image%7D%60)%7D HTTP/1.1" 404 2027 "http://webfood.com/Product" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36"
+172.21.0.1 - - [06/Jan/2020:07:23:20 +0000] "GET /Product HTTP/1.1" 200 1983 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36"
+172.21.0.1 - - [06/Jan/2020:07:23:22 +0000] "GET /favicon.ico HTTP/1.1" 200 561 "http://webfood.com/Product" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36"
+172.21.0.1 - - [06/Jan/2020:07:23:21 +0000] "GET /api/Product HTTP/1.1" 200 2267 "http://webfood.com/Product" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36"
+172.21.0.1 - - [06/Jan/2020:07:23:22 +0000] "GET /%7Brequire(%60$%7B./product.image%7D%60)%7D HTTP/1.1" 404 2027 "http://webfood.com/Product" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36"
