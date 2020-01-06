@@ -88,3 +88,7 @@
 [Wed Dec 18 09:15:33.894805 2019] [mpm_prefork:notice] [pid 50] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
 [Wed Dec 18 09:15:33.895339 2019] [core:notice] [pid 50] AH00094: Command line: '/usr/sbin/apache2'
 [Wed Dec 18 09:17:31.992447 2019] [autoindex:error] [pid 56] [client 172.24.0.1:49704] AH01276: Cannot serve directory /var/www/html/public/admin/uploads/users/: No matching DirectoryIndex (index.html,index.cgi,index.pl,index.php,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive, referer: http://webfood.com/admin/users/list_users
+[Mon Jan 06 06:58:35.660542 2020] [core:warn] [pid 50] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Jan 06 06:58:35.672047 2020] [mpm_prefork:notice] [pid 50] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Mon Jan 06 06:58:35.672712 2020] [core:notice] [pid 50] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Jan 06 06:59:11.655767 2020] [autoindex:error] [pid 55] [client 172.21.0.1:47006] AH01276: Cannot serve directory /var/www/html/public/admin/: No matching DirectoryIndex (index.html,index.cgi,index.pl,index.php,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive
